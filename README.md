@@ -1,0 +1,1 @@
+# strapi-provider-sharp-minio
