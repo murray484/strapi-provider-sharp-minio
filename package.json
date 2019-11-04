@@ -1,0 +1,29 @@
+{
+  "name": "strapi-provider-upload-sharp-minio",
+  "version": "3.0.0-beta",
+  "description": "MINIO provider for strapi upload with resizing",
+  "strapi": {
+    "isProvider": true
+  },
+  "main": "./lib",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Colvin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murray484/strapi-provider-sharp-minio"
+  },
+  "bugs": {
+    "url": "https://github.com/murray484/strapi-provider-sharp-minio/issues"
+  },
+  "homepage": "https://github.com/murray484/strapi-provider-sharp-minio#readme",
+  "dependencies": {
+    "minio": "^7.0.12",
+    "sharp": "^0.23.2"
+  }
+}
